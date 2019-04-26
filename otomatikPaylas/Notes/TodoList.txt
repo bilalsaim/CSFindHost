@@ -1,0 +1,2 @@
+﻿1-) When you save links, save without couchsurfing link, it will make faster search for same links
+2-) More seperation FileUtil, Driver, CS

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0"?>
+<configuration>
+  <system.web>
+    <globalization fileEncoding="utf-8"/>
+  </system.web>
+  <system.data>
+    <DbProviderFactories>
+      <remove invariant="MySql.Data.MySqlClient"></remove>
+      <add name="MySQL Data Provider" invariant="MySql.Data.MySqlClient" description=".Net Framework Data Provider for MySQL" type="MySql.Data.MySqlClient.MySqlClientFactory, MySql.Data,Culture=neutral, PublicKeyToken=c5687fc88969c44d"/>
+    </DbProviderFactories>
+  </system.data>
+  <appSettings>
+    <!--
+     //注明要自动生成表的Model程序集
+    <add  key="IModel" value="JUnit.Model"/>
+     //注明应用程序的Title
+    <add key="Title" value="Appliction"/>
+    -->
+  </appSettings>
+</configuration>
