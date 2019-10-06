@@ -29,9 +29,10 @@ namespace CSHelper.Control
             Util.wait(2);
             IWebElement query = driver.FindElement(By.Id("user_login"));
             query.SendKeys(user);
-            query = driver.FindElement(By.Id("user_password"));
-            query.SendKeys(pass);
-            query.SendKeys(OpenQA.Selenium.Keys.Enter);
+            //Util.wait(5);
+            //query = driver.FindElement(By.Id("user_password"));
+            //query.SendKeys(pass);
+            //query.SendKeys(OpenQA.Selenium.Keys.Enter);
         }
 
         public void postPaste(Dictionary<String, Object> post)
